@@ -1,7 +1,7 @@
 # ARpin - Web Archive Extension for Brave
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/092d7dcd-2638-4c39-b18e-7784dbfe1472)
+![image](https://github.com/user-attachments/assets/b95bf58f-5bf8-43d5-a81e-81645ec431ff)
   <h1 align="center">ARpin</h1>
 </p>
 
