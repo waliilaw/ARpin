@@ -1,0 +1,25 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+        threshold: 1%
+    patch:
+      default:
+        target: 80%
+        threshold: 1%
+
+ignore:
+  - "src/background/main.js"
+  - "src/content/content.js"
+  - "src/action/popup.js"
+  - "tests/**/*"
+  - "**/*.test.js"
+  - "**/*.spec.js"
+
+comment:
+  layout: "header, diff, files, footer"
+  behavior: default
+  require_changes: false
+  require_base: no
+  require_head: yes 

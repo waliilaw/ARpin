@@ -1,0 +1,540 @@
+{
+  "extensionName": {
+    "message": "Web Archives",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "View archived and cached versions of web pages on various search engines, such as the Wayback Machine and Archive.is.",
+    "description": "Description of the extension."
+  },
+
+  "engineName_yandex": {
+    "message": "Yandex",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_archiveOrg": {
+    "message": "Wayback Machine",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_archiveOrgAll": {
+    "message": "Wayback Machine (all)",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_memento": {
+    "message": "Memento",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_archiveIs": {
+    "message": "Archive.is",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_archiveIsAll": {
+    "message": "Archive.is (all)",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_megalodon": {
+    "message": "Megalodon",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_permacc": {
+    "message": "Perma.cc",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_ghostarchive": {
+    "message": "Ghostarchive",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_webcite": {
+    "message": "WebCite",
+    "description": "Name of the search engine."
+  },
+
+  "engineName_allEngines": {
+    "message": "All search engines",
+    "description": "Name of the search engine."
+  },
+
+  "actionTitle_allEngines": {
+    "message": "Search all engines for page",
+    "description": "Title of the action."
+  },
+
+  "actionTitle_engine": {
+    "message": "Search $ENGINE$ for page",
+    "description": "Title of the action.",
+    "placeholders": {
+      "engine": {
+        "content": "$1",
+        "example": "Wayback Machine"
+      }
+    }
+  },
+
+  "menuItemTitle_yandex": {
+    "message": "Yandex",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_archiveOrg": {
+    "message": "Wayback Machine",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_archiveOrgAll": {
+    "message": "Wayback Machine (all)",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_memento": {
+    "message": "Memento",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_archiveIs": {
+    "message": "Archive.is",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_archiveIsAll": {
+    "message": "Archive.is (all)",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_megalodon": {
+    "message": "Megalodon",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_permacc": {
+    "message": "Perma.cc",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_ghostarchive": {
+    "message": "Ghostarchive",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_webcite": {
+    "message": "WebCite",
+    "description": "Title of the menu item."
+  },
+
+  "menuItemTitle_allEngines": {
+    "message": "All search engines",
+    "description": "Title of the menu item."
+  },
+
+  "mainMenuItemTitle_allEngines": {
+    "message": "Search all engines for page",
+    "description": "Title of the menu item."
+  },
+
+  "mainMenuItemTitle_engine": {
+    "message": "Search $ENGINE$ for page",
+    "description": "Title of the menu item.",
+    "placeholders": {
+      "engine": {
+        "content": "$1",
+        "example": "Wayback Machine"
+      }
+    }
+  },
+
+  "menuItemTitle_openCurrentDoc": {
+    "message": "Open current page",
+    "description": "Title of the menu item."
+  },
+
+  "optionSectionTitle_engines": {
+    "message": "Search engines",
+    "description": "Title of the options section."
+  },
+
+  "optionSectionDescription_engines": {
+    "message": "Toggle search engines and customize their order (drag and drop)",
+    "description": "Description of the options section."
+  },
+
+  "optionTitle_yandex": {
+    "message": "Yandex Cache",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_archiveOrg": {
+    "message": "Wayback Machine",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_archiveOrgAll": {
+    "message": "Wayback Machine (all)",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_memento": {
+    "message": "Memento Time Travel",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_archiveIs": {
+    "message": "Archive.is",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_archiveIsAll": {
+    "message": "Archive.is (all)",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_megalodon": {
+    "message": "Megalodon",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_permacc": {
+    "message": "Perma.cc",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_ghostarchive": {
+    "message": "Ghostarchive",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_webcite": {
+    "message": "WebCite",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_searchMode": {
+    "message": "Search mode",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_searchAllEngines": {
+    "message": "Search all engines",
+    "description": "Title of the option."
+  },
+
+  "optionSectionTitle_contextmenu": {
+    "message": "Context menu",
+    "description": "Title of the options section."
+  },
+
+  "optionTitle_showInContextMenu": {
+    "message": "Visibility",
+    "description": "Title of the option."
+  },
+
+  "optionValue_showInContextMenu_all": {
+    "message": "Show",
+    "description": "Value of the option."
+  },
+
+  "optionValue_showInContextMenu_link": {
+    "message": "Show for links",
+    "description": "Value of the option."
+  },
+
+  "optionValue_showInContextMenu_false": {
+    "message": "Hide",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesContextMenu_main": {
+    "message": "From context menu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesContextMenu_sub": {
+    "message": "From submenu of context menu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesContextMenu_false": {
+    "message": "Disable",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_openCurrentDocContextMenu": {
+    "message": "Open current page",
+    "description": "Title of the option."
+  },
+
+  "optionSectionTitle_toolbar": {
+    "message": "Browser toolbar",
+    "description": "Title of the options section."
+  },
+
+  "optionSectionTitleMobile_toolbar": {
+    "message": "Browser menu",
+    "description": "Title of the options section."
+  },
+
+  "optionValue_searchAllEnginesAction_main": {
+    "message": "From browser toolbar",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesAction_sub": {
+    "message": "From browser toolbar popup",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesAction_false": {
+    "message": "Disable",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesActionMobile_main": {
+    "message": "From browser menu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesActionMobile_sub": {
+    "message": "From browser menu popup",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchAllEnginesActionMobile_false": {
+    "message": "Disable",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchModeAction_tab": {
+    "message": "Tab",
+    "description": "Value of the option."
+  },
+
+  "optionValue_searchModeAction_url": {
+    "message": "URL",
+    "description": "Value of the option."
+  },
+
+  "optionValue_action_searchModeAction_tab": {
+    "message": "Tab",
+    "description": "Value of the option."
+  },
+
+  "optionValue_action_searchModeAction_url": {
+    "message": "URL",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_showPageAction": {
+    "message": "Show in address bar on server error",
+    "description": "Title of the option."
+  },
+
+  "optionSectionTitle_misc": {
+    "message": "Miscellaneous",
+    "description": "Title of the miscellaneous options section."
+  },
+
+  "optionTitle_tabInBackgound": {
+    "message": "Open new tabs in the background",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_showEngineIcons": {
+    "message": "Show search engine icons",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_appTheme": {
+    "message": "Theme",
+    "description": "Title of the option."
+  },
+
+  "optionValue_appTheme_auto": {
+    "message": "System default",
+    "description": "Value of the option."
+  },
+
+  "optionValue_appTheme_light": {
+    "message": "Light",
+    "description": "Value of the option."
+  },
+
+  "optionValue_appTheme_dark": {
+    "message": "Dark",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_showContribPage": {
+    "message": "Show contribution page",
+    "description": "Title of the option."
+  },
+
+  "inputPlaceholder_docUrl": {
+    "message": "Page URL",
+    "description": "Placeholder of the input."
+  },
+
+  "buttonLabel_contribute": {
+    "message": "Contribute",
+    "description": "Label of the button."
+  },
+
+  "pageTitle": {
+    "message": "$PAGETITLE$ - $EXTENSIONNAME$",
+    "description": "Title of the page.",
+    "placeholders": {
+      "pageTitle": {
+        "content": "$1",
+        "example": "Options"
+      },
+      "extensionName": {
+        "content": "$2",
+        "example": "Extension Name"
+      }
+    }
+  },
+
+  "pageTitle_options": {
+    "message": "Options",
+    "description": "Title of the page."
+  },
+
+  "pageTitle_contribute": {
+    "message": "Contribute",
+    "description": "Title of the page."
+  },
+
+  "actionMenu_openCurrentDoc": {
+    "message": "Open current page",
+    "description": "Title of the menu item."
+  },
+
+  "actionMenu_options": {
+    "message": "Options",
+    "description": "Title of the menu item."
+  },
+
+  "actionMenu_contribute": {
+    "message": "Contribute",
+    "description": "Title of the menu item."
+  },
+
+  "actionMenu_support": {
+    "message": "Support",
+    "description": "Title of the menu item."
+  },
+
+  "buttonTooltip_searchMode": {
+    "message": "Search mode",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_openCurrentDoc": {
+    "message": "Open current page",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_contribute": {
+    "message": "Contribute",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_options": {
+    "message": "Options",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_menu": {
+    "message": "Menu",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_pin": {
+    "message": "Pin",
+    "description": "Tooltip of the button."
+  },
+
+  "buttonTooltip_unpin": {
+    "message": "Unpin",
+    "description": "Tooltip of the button."
+  },
+
+  "error_invalidPageUrl": {
+    "message": "The page URL is not valid.",
+    "description": "Error message."
+  },
+
+  "error_invalidSearchMode_url": {
+    "message": "Searching for page URLs is only supported from the browser toolbar popup. Visit the extension's options to select a different search mode.",
+    "description": "Error message."
+  },
+
+  "error_invalidSearchModeMobile_url": {
+    "message": "Searching for page URLs is only supported from the browser menu popup. Visit the extension's options to select a different search mode.",
+    "description": "Error message."
+  },
+
+  "error_sessionExpired": {
+    "message": "The session has expired.",
+    "description": "Error message."
+  },
+
+  "error_sessionExpiredEngine": {
+    "message": "The session has expired. Try searching again for the page on $ENGINE$.",
+    "description": "Error message.",
+    "placeholders": {
+      "engine": {
+        "content": "$1",
+        "example": "Wayback Machine"
+      }
+    }
+  },
+
+  "error_engine": {
+    "message": "Something went wrong. Searching on $ENGINE$ has failed.",
+    "description": "Error message.",
+    "placeholders": {
+      "engine": {
+        "content": "$1",
+        "example": "Wayback Machine"
+      }
+    }
+  },
+
+  "error_noResults": {
+    "message": "No results found.",
+    "description": "Error message."
+  },
+
+  "error_scriptsNotAllowed": {
+    "message": "Content scripts are not allowed on this page.",
+    "description": "Error message."
+  },
+
+  "error_allEnginesDisabled": {
+    "message": "All search engines have been disabled. Visit the extensions's options to enable a search engine.",
+    "description": "Error message."
+  },
+
+  "error_noSearchEngineAccess": {
+    "message": "Cannot access search page results. Visit Menu > Extensions and enable the \"Allow access to search page results\" option for the extension.",
+    "description": "Error message."
+  },
+
+  "error_optionsNotApplied": {
+    "message": "Restart the browser for changes to take effect.",
+    "description": "Error message."
+  },
+
+  "error_currentDocUrlNotFound": {
+    "message": "Current page URL not found.",
+    "description": "Error message."
+  }
+}

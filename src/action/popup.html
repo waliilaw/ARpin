@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARpin</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="header">
+        <img src="../assets/icons/app/icon-48.png" alt="ARpin Logo" class="logo">
+        <h1>ARpin</h1>
+      </div>
+
+      <!-- Wallet Section -->
+      <div class="wallet-section" v-if="!walletAddress">
+        <p>Connect your ArConnect wallet to start archiving pages.</p>
+        <button class="connect-button" @click="connectWallet" :disabled="isConnecting">
+          <span v-if="isConnecting">Connecting...</span>
+          <span v-else>Connect Wallet</span>
+        </button>
+      </div>
+
+      <!-- Main Section -->
+      <div class="main-section" v-else>
+        <div class="wallet-info">
+          <p>Connected: {{ truncatedAddress }}</p>
+          <button class="disconnect-button" @click="disconnectWallet">Disconnect</button>
+        </div>
+
+        <div class="archive-section">
+          <button class="archive-button" @click="archiveCurrentPage" :disabled="isArchiving">
+            <span v-if="isArchiving">Archiving...</span>
+            <span v-else>Archive Current Page</span>
+          </button>
+        </div>
+
+        <!-- Error Message -->
+        <div class="error-message" v-if="error">
+          {{ error }}
+          <button class="close-error" @click="error = null">×</button>
+        </div>
+
+        <!-- Archives List -->
+        <div class="archives-section">
+          <h2>Your Archives</h2>
+          <div class="loading" v-if="isLoadingArchives">Loading archives...</div>
+          <div class="no-archives" v-else-if="archives.length === 0">
+            No archives yet. Start by archiving a page!
+          </div>
+          <div class="archives-list" v-else>
+            <div v-for="archive in archives" :key="archive.txId" class="archive-item">
+              <div class="archive-info">
+                <h3>{{ archive.title || 'Untitled' }}</h3>
+                <p class="archive-url">{{ archive.url }}</p>
+                <p class="archive-date">{{ formatDate(archive.timestamp) }}</p>
+              </div>
+              <a :href="'https://arweave.net/' + archive.txId" target="_blank" class="view-archive">
+                View on Arweave
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html> 

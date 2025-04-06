@@ -1,0 +1,21 @@
+[chrome]
+Chrome >= 123
+Edge >= 123
+Opera >= 109
+
+[edge]
+Edge >= 123
+
+[firefox]
+Firefox >= 115
+FirefoxAndroid >= 115
+
+[opera]
+Opera >= 109
+
+[safari]
+Safari >= 17
+iOS >= 17
+
+[samsung]
+Samsung >= 14
